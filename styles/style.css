@@ -15,6 +15,7 @@ h2, h3, p {
     padding-top: 3em;
     padding-right: 1.5em;
     padding-left: 1.5em;
+    display: inline-block;
 }
 
 .dest {
@@ -56,7 +57,7 @@ img {
     margin: 0;
 }
 h2 h3{
-    padding-top: 1em;
+    padding-top: em;
     padding-bottom: 0.5em;
 }
 .contact
@@ -79,4 +80,14 @@ footer
     background: white;
     color: black;
     line-height: 50px;
+}
+@media screen and ( max-width: 700px) {
+    #hdr {
+        padding: 0px;
+        margin: 0px;
+    }
+    h2, h3, p {
+        margin: 10px;
+    }
+    
 }
